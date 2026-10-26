@@ -1,0 +1,10 @@
+# Always
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+~$*
+*.log
+*.gpx
+*.kml
