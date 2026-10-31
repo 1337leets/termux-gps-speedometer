@@ -41,15 +41,14 @@ Settings are environment variables.
 | `MAXACC` | `150` | speedo | GPS fixes worse than this are ignored |
 | `DELAY` | `300` | watch, all | sensor sample interval in ms |
 
-In `speedo` mode a line looks like this.
+In `speedo` mode a line looks like this, here with the phone standing still.
 
 ```
-~ fusion   42.3 | gps   41.8   a=+0.12  |a|=0.35
+~ fusion    0.1 | gps    0.0   a=-0.01  |a|=0.05
 ```
 
 `~` means the forward axis has been learned and the accelerometer is adding to the estimate, `.` means it has not
 been learned yet. `a` is the acceleration along the forward axis and `|a|` is the raw acceleration magnitude.
-<!-- TODO: replace with a real line from a drive -->
 
 ## How it works
 
